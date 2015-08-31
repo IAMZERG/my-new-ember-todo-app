@@ -1,7 +1,7 @@
 # My-new-ember-todo-app
 
 This is a simple project for those looking to start learning Ember.  It's not super-pretty, but it is functional.
-If you would like to build it from scratch while following along in a tutorial, visit [This blog post](http://blog.wrightonlineworks.com/ok-im-convinced-ember-cli-is-omakase-now-how-do-i-use-it/)
+If you would like to build it from scratch while following along in a tutorial, visit [this blog post](http://blog.wrightonlineworks.com/ok-im-convinced-ember-cli-is-omakase-now-how-do-i-use-it/)
 
 ## Prerequisites
 
