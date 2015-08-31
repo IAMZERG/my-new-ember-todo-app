@@ -1,0 +1,7 @@
+<h1>Todo</h1>
+
+<input type="text" placeholder="Todo Name" value={{model.name}}>
+<hr>
+<textarea placeholder="Todo Details">{{model.details}}</textarea>
+<hr>
+<button {{action "save" model}}>Done</button>

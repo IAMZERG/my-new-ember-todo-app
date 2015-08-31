@@ -1,0 +1,9 @@
+<h1>Todos</h1>
+<div class="nav">{{#link-to "new"}}New Todo{{/link-to}}</div>
+{{#each model as |todo|}}
+{{#if todo.checked }} <label {{action "checkOff" todo}} class="strikethrough"><input type="checkbox" checked>{{#link-to "todo" todo}}{{todo.name}}{{/link-to}}</label><br>
+{{else}}
+<label {{action "checkOff" todo}}><input type="checkbox">{{#link-to "todo" todo}}{{todo.name}}{{/link-to}}</label><br>
+{{/if}}
+{{/each}}
+<button {{action 'deleteTodos'}}>Delete checked todos</button>
